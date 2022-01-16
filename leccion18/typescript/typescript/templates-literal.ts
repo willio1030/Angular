@@ -67,11 +67,12 @@ en la variable edad le puedo sumar 100
  de otras funciones
 */
 
-(function () {
+function getEdad() {
+   return 100 + 200 + 300;
+}
 
-   function getEdad() {
-      return 100 + 200 + 300;
-   }
+
+(function () {
 
    const nombre = 'osa';
    const apellido = 'menor';
