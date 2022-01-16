@@ -8,6 +8,7 @@ Argumento obligatorio
 
 el argumento obligatorio se define en los parametros
 de la función en este caso debe ser de tipo string 
+la asignacion de batiseñal a la variable objeto
 
 */
 
