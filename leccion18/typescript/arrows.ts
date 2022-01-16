@@ -1,6 +1,6 @@
 
 /*
-leccion 17 funciones flecha
+leccion 18 funciones flecha
 */
 
 /* estamos creando un variable que se llama mi funcion

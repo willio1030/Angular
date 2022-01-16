@@ -1,6 +1,6 @@
 
 /*
-parametros opcionales obligatorios y por defecto
+ parametros opcionales obligatorios y por defecto
 */
 
 /* 
