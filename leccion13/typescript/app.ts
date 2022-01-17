@@ -65,7 +65,7 @@ variables let y const leccion 13
   console.log(documento)
 
   /*
-  en este caso imprimira variable constante1 porque estamos 
+  en este caso imprimira variable constante porque estamos 
   utilizando el espacio de la variable y simplemente
   estamos remplazando su valor
   */
