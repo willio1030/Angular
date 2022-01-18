@@ -94,9 +94,13 @@ es un conjunto de instrucciones de codigo que realizan
 una tarea o calculan un valor muchas veces toman un valor de
 entrada como un valor o un hilo
 
-para declararla function una funcion(parametros){
-
+para declarar una function: funcion(parametros){
   instruccciones
+  console.log(1)
+
+
+
+}
 
   LLAMAR UNA FUNCION
 
@@ -104,7 +108,7 @@ para declararla function una funcion(parametros){
 */
 
 /*
-REGRESAR VALORES EN UNA FUNCION
+REGRESAR VALORES EN UNA FUNCION DE QUIEN LA LLAMO
  
 para esto existe la palabra return 
 
@@ -119,10 +123,13 @@ function dosfuncion() {
   return "hola";
   /*
    de esta manera no se imprime nada recordar:llamar la
-   funcion, en este punto solo se imprime 1 
+   funcion, en este punto solo se imprime 1 porque estamos
+   llamando solamente la funcion dosfuncion he imprimimos 
+   el console.log();
 
    para imprimir hola por la naturaleza del return
-   creamos una variable que almacene el return osea hola 
+   debemos crear una variable que almacene el resultado
+   de return
   */
 
 }
@@ -163,20 +170,17 @@ function suma1(a: number, b: number = 15) {
 let resultado1 = suma1(5);
 console.log(resultado1);
 
-
-
-/* 
+/*
 PASAR UNA FUNCION ANONIMA A UNA VARIABLE
 
+la funcion this referencian a un objeto.
 
 */
+const tresfuncion = () => {
+  console.log(1);
 
-
-function sum2(a: number, b: number = 15) {
-  return a + b;
-}
-let resultado2 = suma1(5);
-console.log(resultado1);
+};
+tresfuncion();
 
 
 
