@@ -28,11 +28,15 @@
     de variable debe aceptar Any en este caso con | |
     se especifica que tipo de variable se va a utilizar
     */
-    cualquiercosa = mensaje;
-    cualquiercosa = numero;
-    cualquiercosa = booleano;
-    cualquiercosa = hoy;
+    function otracosa(a, b) {
+        cualquiercosa = mensaje;
+        cualquiercosa = numero;
+        cualquiercosa = booleano;
+        cualquiercosa = hoy;
+    }
+    otracosa(1, 8);
     console.log(mensaje, numero, booleano, hoy);
+    const lacosa = otracosa(4, 5);
     /*
     Typescript hace algo bien intersante con los objetos
     al crear el objeto spiderman con nombre y edad el
@@ -51,5 +55,5 @@
         nombre: 'william',
         edad: 31
     };
-    console.log(spiderman);
+    console.table(spiderman);
 })();

@@ -35,11 +35,18 @@
   se especifica que tipo de variable se va a utilizar 
   */
 
-  cualquiercosa = mensaje;
-  cualquiercosa = numero;
-  cualquiercosa = booleano;
-  cualquiercosa = hoy;
+  function otracosa(a: number, b: number) {
+
+    cualquiercosa = mensaje;
+    cualquiercosa = numero;
+    cualquiercosa = booleano;
+    cualquiercosa = hoy;
+
+  }
+
+  otracosa(1, 8);
   console.log(mensaje, numero, booleano, hoy);
+  const lacosa = otracosa(4, 5);
 
   /* 
   Typescript hace algo bien intersante con los objetos 
